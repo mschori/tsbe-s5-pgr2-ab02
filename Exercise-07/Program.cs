@@ -1,4 +1,5 @@
-﻿using Exercise_07;
+﻿using System.ComponentModel.DataAnnotations;
+using Exercise_07;
 
 Console.WriteLine("Proving learning from AB02-B...");
 
@@ -8,6 +9,12 @@ using var context = new Context();
 var group = new Group("Admins");
 context.Add(group);
 context.SaveChanges();
+
+// Validate group-object
+if (!ObjectValidator.Validate(group))
+{
+    return;
+}
 
 // Show group name from context
 group = context.Groups.First();
@@ -25,6 +32,12 @@ Console.WriteLine("Group name: {0}", group.Name);
 var user = new User("max@test.ch", "Max", "Mustermann") { Salutation = "Herr" };
 context.Add(user);
 context.SaveChanges();
+
+// Validate user-object
+if (!ObjectValidator.Validate(user))
+{
+    return;
+}
 
 // Show user from context
 user = context.Users.First();
@@ -54,6 +67,12 @@ foreach (var groupUser in groupUsers)
 var permission = new Permission("Deleting things", "DEL-T");
 context.Add(permission);
 context.SaveChanges();
+
+// Validate permission-object
+if (!ObjectValidator.Validate(permission))
+{
+    return;
+}
 
 // Show permission from context
 permission = context.Permissions.First();
