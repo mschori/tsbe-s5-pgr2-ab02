@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSBE-S5-PRGII-MichaelSchori-AB02", "TSBE-S5-PRGII-MichaelSchori-AB02\TSBE-S5-PRGII-MichaelSchori-AB02.csproj", "{0198F03D-FC1C-441F-B392-2BC9637106C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise-07", "Exercise-07\Exercise-07.csproj", "{29E6BB78-5217-43FB-B811-9153476CBF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0198F03D-FC1C-441F-B392-2BC9637106C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0198F03D-FC1C-441F-B392-2BC9637106C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0198F03D-FC1C-441F-B392-2BC9637106C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0198F03D-FC1C-441F-B392-2BC9637106C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E6BB78-5217-43FB-B811-9153476CBF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E6BB78-5217-43FB-B811-9153476CBF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E6BB78-5217-43FB-B811-9153476CBF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E6BB78-5217-43FB-B811-9153476CBF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
